@@ -3,12 +3,11 @@ package com.springpractice.spring_sample.roughPractice;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
-
 @Lazy
 @Component
-public class Order {
+public class Customers {
 
-    public Order(){
-        System.out.println("Initializing order..");
+     public Customers(){
+        System.out.println("Initialzing Customers...");
     }
 }

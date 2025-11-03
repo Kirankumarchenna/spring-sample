@@ -10,6 +10,8 @@ import org.springframework.stereotype.Component;
 public class User {
 
     @Autowired
+    Customers customers;
+    @Autowired
     Order order;
 
     @PostConstruct
