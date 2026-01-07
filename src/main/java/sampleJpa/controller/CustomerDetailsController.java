@@ -18,7 +18,7 @@ public class CustomerDetailsController {
 
     @GetMapping(value = "/sample-jpa")
     public List<CustomerDetails> getCustomers(){
-        CustomerDetails customerDetails = new CustomerDetails( "Kiran", "Kiransamuel7287@gmail.com", "Gachibowli");
+        CustomerDetails customerDetails = new CustomerDetails( "Immanuel", "Kiransamuel7287@gmail.com", "Eternity");
         customerDetailsService.saveCustomer(customerDetails);
         return customerDetailsService.getAllCustomers();
     }
